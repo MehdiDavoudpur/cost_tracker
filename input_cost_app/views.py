@@ -12,5 +12,3 @@ def input_cost(request):
         form = CostEntryForm()
     return render(request, 'input_cost.html', {'form': form})
 
-# Implement SHOW and EDIT views as per your requirements.
-# You may need to create additional views and templates for this.
